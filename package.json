@@ -1,0 +1,20 @@
+{
+  "name": "graphql-fundamental",
+  "version": "1.0.0",
+  "description": "GraphQL Fundamental",
+  "main": "index.js",
+  "repository": "https://github.com/JiSop/graphql-fundamental",
+  "author": "JiSop<jisop.shin@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node ."
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0"
+  }
+}
