@@ -3,7 +3,7 @@ import { getTodos } from './db'
 const resolvers = {
   Query: {
     hello: (_, { name }) => `Hello ${name || 'World'}`,
-    todos: () => getTodos(),
+    todos: (_, { userId }) => getTodos(userId),
   },
 };
 

@@ -7,5 +7,5 @@ type Todo {
 
 type Query {
   hello(name: String): String!
-  todos: [Todo],
+  todos(userId: Int): [Todo],
 }
